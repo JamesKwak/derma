@@ -40,7 +40,7 @@ function getAdjustedDate(date, weeks) {
   
       const row = document.createElement('tr');
       row.innerHTML = `
-        <td>${item.weeks}주 (${formattedDate})</td>
+        <td>${item.weeks}주 ${formattedDate}</td>
         <td>${item.content}</td>
       `;
   
